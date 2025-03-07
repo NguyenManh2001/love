@@ -191,7 +191,7 @@ const CustomHeart = ({ color }) => (
 );
 
 const messages = [
-  " Chúc bạn luôn xinh đẹp, hạnh phúc và thành công trong mọi điều bạn làm! 🎉💐",
+  " Chúc em luôn xinh đẹp, hạnh phúc bên anh khoa và thành công trong mọi điều mà em làm! 🎉💐",
   // "Nụ cười của em thắp sáng thế giới của anh, và tình yêu của em lấp đầy trái tim anh bằng sự ấm áp.",
   // "Vào ngày đặc biệt này, anh muốn em biết em có ý nghĩa như thế nào đối với anh.",
   // "Em không chỉ là bạn gái của anh, em là bạn thân nhất của anh, là người bạn tâm giao và là tất cả của anh.",
