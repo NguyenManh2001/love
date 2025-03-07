@@ -95,7 +95,7 @@ const Title = styled(motion.h1)`
   transition={{ duration: 1 }}
   className="responsive-title"
 >
-  Chúc mừng ngày 8/3!
+  Chúc mừng ngày 8/3 – Ngày của những đóa hoa xinh đẹp!
 </Title>;
 
 const PuppyContainer = styled(motion.div)`
@@ -219,7 +219,7 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        Chúc mừng ngày 8/3!
+        Chúc mừng ngày 8/3 – Ngày của những đóa hoa xinh đẹp!
       </Title>
 
       <PuppyContainer

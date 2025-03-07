@@ -191,12 +191,12 @@ const CustomHeart = ({ color }) => (
 );
 
 const messages = [
-  " Chúc em luôn xinh đẹp, hạnh phúc bên anh khoa và thành công trong mọi điều mà em làm! 🎉💐",
-  // "Nụ cười của em thắp sáng thế giới của anh, và tình yêu của em lấp đầy trái tim anh bằng sự ấm áp.",
-  // "Vào ngày đặc biệt này, anh muốn em biết em có ý nghĩa như thế nào đối với anh.",
-  // "Em không chỉ là bạn gái của anh, em là bạn thân nhất của anh, là người bạn tâm giao và là tất cả của anh.",
-  // "Anh trân trọng từng khoảnh khắc chúng ta bên nhau, và anh mong muốn tạo ra nhiều kỷ niệm đẹp hơn nữa.",
-  // "Chúc mừng Ngày Phụ nữ, tình yêu của anh! Em xứng đáng có được tất cả hạnh phúc trên thế giới này."
+  "Chúc bạn luôn xinh đẹp, hạnh phúc và thành công trong mọi điều mà bạn làm! 🎉💐",
+  "Nụ cười của bạn thắp sáng thế giới xung quanh, và sự hiện diện của bạn mang đến niềm vui cho mọi người.",
+  "Vào ngày đặc biệt này, mình muốn bạn biết rằng bạn có ý nghĩa như thế nào đối với những người xung quanh.",
+  "Bạn không chỉ là một người bạn, mà còn là một người tuyệt vời luôn mang lại niềm vui và sự ấm áp.",
+  "Mình trân trọng từng khoảnh khắc bên bạn, và hy vọng chúng ta sẽ có thêm nhiều kỷ niệm đẹp cùng nhau.",
+  "Chúc mừng Ngày Phụ nữ! Bạn xứng đáng có được tất cả hạnh phúc trên thế giới này.",
 ];
 
 // Then update the MessageCard component to accept and pass the prop:
@@ -356,7 +356,7 @@ const MessageCard = ({ marginBottom }) => {
           </MessageWrapper>
         </AnimatePresence>
 
-        {/* <ButtonContainer>
+        <ButtonContainer>
           <Button
             onClick={nextMessage}
             whileHover={{
@@ -380,7 +380,7 @@ const MessageCard = ({ marginBottom }) => {
               <CustomHeart color="#fff" />
             </HeartIcon>
           </Button>
-        </ButtonContainer> */}
+        </ButtonContainer>
 
         <ProgressBar>
           <Progress progress={progress} />
@@ -433,7 +433,7 @@ const MessageCard = ({ marginBottom }) => {
                 repeatType: "reverse",
               }}
             >
-              I Love You
+              I Cherish Our Friendship
             </motion.div>
           </FinalMessage>
         </FullscreenOverlay>
